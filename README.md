@@ -1,5 +1,5 @@
 # Unsupervised-end-to-end-infrared-and-visible-image-fusion-network-using-learnable-fusion-strategy
-This repository contains the codes for paper Unsupervised end-to-end infrared and visible image fusion network using learnable fusion strategy by Yili Chen, Minjie Wan*, Yunkai Xu, et al. (*Corresponding author).
+This repository contains the codes for paper **Unsupervised end-to-end infrared and visible image fusion network using learnable fusion strategy** by Yili Chen, Minjie Wan*, Yunkai Xu, et al. (*Corresponding author).
 
 The overall repository style is partially borrowed from PFNet (https://github.com/Junchao2018/Polarization-image-fusion). Thanks to Junchao Zhang.
 
