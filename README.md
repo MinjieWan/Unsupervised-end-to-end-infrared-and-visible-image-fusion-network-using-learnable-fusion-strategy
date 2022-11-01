@@ -10,7 +10,7 @@ Python==3.7
 
 Tensorflow==1.13.1
 
-Cuda==10.0.13 and cudnn
+cuda==10.0.13 and cudnn
 
 h5py
 
