@@ -19,7 +19,7 @@ opencv-python
 other packages if needed
 
 ## Usage
-1. Generating training and testing data using GenerateTrainingPatches_Tensorflow.m and GenerateTestingPatches_Tensorflow.m, put the generated mat into TrainingData and TestingData respectively.
+1. Generating training and testing data using GenerateTrainingPatches_Tensorflow.m and GenerateTestingPatches_Tensorflow.m, creating two folders named TrainingData and TestingData and putting the generated mats into them respectively.
 2. Training your own model using backward.py, the relative parameters can be adjusted in the same file.
 3. Generating fusion results with the trained model using test.py.
 4. The default output format is '.mat', using Matlab to convert it to common picture format.
