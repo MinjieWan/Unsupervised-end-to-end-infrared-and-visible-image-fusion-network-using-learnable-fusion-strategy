@@ -2,9 +2,8 @@
 This repository contains the codes for paper Unsupervised end-to-end infrared and visible image fusion network using learnable fusion strategy by Yili Chen, Minjie Wan*, Yunkai Xu, et al. (*Corresponding author).
 
 The overall repository style is partially borrowed from PFNet (https://github.com/Junchao2018/Polarization-image-fusion). Thanks to Junchao Zhang.
-The visible-thermal dataset TNO can be downloaded from https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029, 
 
-the multi-focus dataset Lytro can be downloaded from https://mansournejati.ece.iut.ac.ir/content/lytro-multi-focus-dataset.
+The visible-thermal dataset TNO can be downloaded from https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029, the multi-focus dataset Lytro can be downloaded from https://mansournejati.ece.iut.ac.ir/content/lytro-multi-focus-dataset.
 
 ## Requirements
 Python==3.7
