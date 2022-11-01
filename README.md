@@ -14,6 +14,8 @@ Cuda==10.0.13 and cudnn
 h5py
 
 opencv-python
+
+other packages if needed
 ## Usage
 1. Generating training and testing data using GenerateTrainingPatches_Tensorflow.m and GenerateTestingPatches_Tensorflow.m, put the generated mat into TrainingData and TestingData respectively.
 2. Training your own model using backward.py, the relative parameters can be adjusted in the same file.
