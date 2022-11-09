@@ -14,7 +14,7 @@ subfolder = {'LytroDataset\19'};
 imagename = {'VIS.jpg','IR.jpg'};
 % subfolder = {'1'};
 % imagename = {'IR.jpg','VIS.jpg'};
-%ÊäÈëÍ¼ÏñµÄ¿í¸ß
+%height and width of the input images
 patchsize1     = 520;                             
 patchsize2     = 520;
 %
