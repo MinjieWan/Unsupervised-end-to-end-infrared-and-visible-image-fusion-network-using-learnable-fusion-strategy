@@ -6,9 +6,9 @@ import numpy as np
 import h5py
 import scipy.io
 import cv2
-MODEL_SAVE_PATH = './model_PFNet/'    #测试的模型
+MODEL_SAVE_PATH = './model_PFNet/'
 IMG_CHANNEL = 2
-IMG_SIZE =(520,520)    #测试图像的尺寸
+IMG_SIZE =(520,520)    #size of test images
 BATCH_TEST = 100
 
 def test(test_data,save_name):

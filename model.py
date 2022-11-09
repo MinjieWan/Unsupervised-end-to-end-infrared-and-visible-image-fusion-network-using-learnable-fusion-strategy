@@ -47,7 +47,7 @@ def ResBlock(f,out_channels,bn=False,act='leaky'):
     f=conv_layer(f,out_channels,3)
     return f
 def forward(x):
-    im_source1,im_source2 = tf.split(x,2,3)#把一个张量划分成几个子张量,从左到右：待分张量，拆分后的张量数，拆分维度
+    im_source1,im_source2 = tf.split(x,2,3)
     w_init = tf.random_normal_initializer(stddev=np.sqrt(2.0 / 9.0))
     output = tf.layers.conv2d(im_source1, 16, 3, (1, 1), padding='SAME', kernel_initializer=w_init)
     output = tf.nn.relu(output)
@@ -74,8 +74,8 @@ def forward(x):
 
     output=conv_layer(Feature_fusion,1,3)
 
-    # return output,Feature_S0,Feature_DoLP,Feature_fusion_temp    #训练时使用这组返回值
-    return output                                                  #测试时使用这行返回值
+    # return output,Feature_S0,Feature_DoLP,Feature_fusion_temp    #For training
+    return output                                                  #For testing
 if __name__=='__main__':
     a=tf.constant(1,tf.float32,shape=[40,60,3,2])
     b,c,d,e=forward(a)

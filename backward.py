@@ -147,6 +147,7 @@ def backward(train_data, train_num):
 
 
 if __name__ == '__main__':
+    # training data path
     data = h5py.File('/home/test/chenyili/Polarization-image-fusion-master（change）/TrainingData/imdb_40_128.mat')
     input_data = data["inputs"]
     input_npy = np.transpose(input_data)
